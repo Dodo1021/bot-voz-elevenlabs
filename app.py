@@ -52,3 +52,5 @@ if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
+# This code is a Flask application that integrates with Twilio and ElevenLabs to create a voice assistant.
+# It captures speech from a caller, generates a response using ElevenLabs' text-to-speech API, and plays the audio back to the caller.
